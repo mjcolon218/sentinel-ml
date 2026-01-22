@@ -156,7 +156,7 @@ Contributions are welcome! Please open an issue or submit a pull request for bug
 
 ## Contact
 
-For questions, suggestions, or collaboration, please contact the project maintainer via GitHub or email.
+For questions, suggestions, or collaboration, please contact me at mjcolon218@gmail.com
 
 ## Key Concepts
 - **Synthetic Data:** Enables controlled experiments and evaluation of anomaly detection methods.
@@ -171,4 +171,4 @@ For questions, suggestions, or collaboration, please contact the project maintai
 - Experiment with different models in `model.py`.
 
 ## License
-This project is for educational and demonstration purposes.
+This project is brought to you by Maurice J Colon.
