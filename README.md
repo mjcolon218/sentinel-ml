@@ -86,31 +86,6 @@ This boxplot compares anomaly scores across different event classes: normal, bru
 
 ![Anomaly Score by Class](reports/anomaly_score_by_class.png)
 
-### Login Count Histogram
-Shows the distribution of login events per user in each 5-minute window. The dashed line marks the average login count ($\hat{\lambda}$), which is used as a Poisson baseline for normal activity.
-
-![Login Count Histogram](reports/login_count_histogram.png)
-
-### Empirical vs Poisson PMF
-Compares the empirical probability mass function (PMF) of login counts to the theoretical Poisson PMF using the observed mean. This helps you see if login activity matches a typical random process or if there are deviations.
-
-![Empirical vs Poisson PMF](reports/empirical_vs_poisson_pmf.png)
-
-### Login Inter-arrival Times
-Shows the distribution of time gaps (in seconds) between consecutive logins for each user, with an exponential fit overlay. This checks if login times are consistent with a memoryless (random) process.
-
-![Login Inter-arrival Times](reports/login_interarrival_times.png)
-
-### Anomaly Score Distribution
-Shows the distribution of anomaly scores assigned by the Isolation Forest model. The dashed line marks the threshold for the top 1% most anomalous scores (p99).
-
-![Anomaly Score Distribution](reports/anomaly_score_distribution.png)
-
-### Anomaly Score by Class
-Compares anomaly scores across different event classes: normal, bruteforce, impossible_travel, and data_exfil. Each box shows the spread and median score for each class.
-
-![Anomaly Score by Class](reports/anomaly_score_by_class.png)
-
 
 ## Installation
 
